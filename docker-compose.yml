@@ -1,0 +1,8 @@
+version: '3'
+services:
+  www:
+    image: php:apache
+    volumes:
+      - /home/prime/Downloads/php demo:/var/www/html
+    ports:
+      - "8080:80"
